@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_RZDGwKdGEe-238BClIk4fQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_RZDGwadGEe-238BClIk4fQ" comment="" name="TalendContextSFUser" prompt="TalendContextSFUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_RZDt0KdGEe-238BClIk4fQ" comment="" name="TalendContextSFURL" prompt="TalendContextSFURL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_RZEU4KdGEe-238BClIk4fQ" comment="" name="TalendContextSFPassword" prompt="TalendContextSFPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_RZEU4adGEe-238BClIk4fQ" comment="" name="TalendContextSFToken" prompt="TalendContextSFToken?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

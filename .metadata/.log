@@ -1,0 +1,218 @@
+!SESSION 2025-02-06 22:53:54.826 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.22
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false -talendRestart true
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false -talendRestart true -data file:/C:/Program%20Files%20(x86)/TOS_DI-8.0.1/studio/workspace_mig/
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2025-02-06 22:53:57.339
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2025-02-06 22:53:57.356
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-02-06 22:53:59.888
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:01.211
+!MESSAGE 2025-02-06 22:54:01,204 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:01.435
+!MESSAGE 2025-02-06 22:54:01,433 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20211109_1610   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:02.095
+!MESSAGE 2025-02-06 22:54:02,091 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:02.099
+!MESSAGE 2025-02-06 22:54:02,095 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:30.653
+!MESSAGE 2025-02-06 22:54:30,649 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:30.657
+!MESSAGE 2025-02-06 22:54:30,655 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:30.667
+!MESSAGE 2025-02-06 22:54:30,662 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:31.758
+!MESSAGE 2025-02-06 22:54:31,753 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2025-02-06 22:54:35.837
+!MESSAGE 2025-02-06 22:54:35,834 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:37.105
+!MESSAGE 2025-02-06 22:54:37,105 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:57565/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:39.554
+!MESSAGE 2025-02-06 22:54:39,552 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté sur repossi_mig
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:40.844
+!MESSAGE 2025-02-06 22:54:40,842 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Program Files (x86)\TOS_DI-8.0.1\studio\workspace_mig\REPOSSI_MIG\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:40.909
+!MESSAGE 2025-02-06 22:54:40,909 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:42.043
+!MESSAGE 2025-02-06 22:54:42,039 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:43.530
+!MESSAGE 2025-02-06 22:54:43,527 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 573, total: 573
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:44.409
+!MESSAGE 2025-02-06 22:54:44,409 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 640 components loaded in 1055 ms
+
+
+!ENTRY org.talend.platform.logging 2 0 2025-02-06 22:54:44.876
+!MESSAGE 2025-02-06 22:54:44,874 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2025-02-06 22:54:44.881
+!MESSAGE 2025-02-06 22:54:44,876 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2025-02-06 22:54:45.153
+!MESSAGE 2025-02-06 22:54:45,148 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2025-02-06 22:54:45.158
+!MESSAGE 2025-02-06 22:54:45,155 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:46.714
+!MESSAGE 2025-02-06 22:54:46,713 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:49.359
+!MESSAGE 2025-02-06 22:54:49,359 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /REPOSSI_MIG_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:49.364
+!MESSAGE 2025-02-06 22:54:49,362 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /REPOSSI_MIG_ROUTINES/src/main/java overlaps with sources folder /REPOSSI_MIG_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:49.395
+!MESSAGE 2025-02-06 22:54:49,393 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /REPOSSI_MIG_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:49.399
+!MESSAGE 2025-02-06 22:54:49,397 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /REPOSSI_MIG_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:49.940
+!MESSAGE 2025-02-06 22:54:49,938 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 3 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:52.826
+!MESSAGE 2025-02-06 22:54:52,825 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Program Files (x86)\TOS_DI-8.0.1\studio\workspace_mig\REPOSSI_MIG\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:54:52.831
+!MESSAGE 2025-02-06 22:54:52,827 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:01.940
+!MESSAGE 2025-02-06 22:55:01,940 INFO  org.talend.librariesmanager.librarydata.LibraryDataService  - org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact com.teradata:tdgssconfig:pom:16.20.00.02 in talend (https://talend-update.talend.com/nexus/content/repositories/libraries/)
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:02.547
+!MESSAGE 2025-02-06 22:55:02,547 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:02.779
+!MESSAGE 2025-02-06 22:55:02,779 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/REPOSSI_MIG_ROUTINES: org.example.repossi_mig.code:routines:8.0.1 with classifier  to /REPOSSI_MIG_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.218
+!MESSAGE 2025-02-06 22:55:03,218 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /REPOSSI_MIG_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.222
+!MESSAGE 2025-02-06 22:55:03,218 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /REPOSSI_MIG_BEANS/src/main/java overlaps with sources folder /REPOSSI_MIG_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.234
+!MESSAGE 2025-02-06 22:55:03,234 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /REPOSSI_MIG_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.243
+!MESSAGE 2025-02-06 22:55:03,234 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /REPOSSI_MIG_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.499
+!MESSAGE 2025-02-06 22:55:03,498 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:03.543
+!MESSAGE 2025-02-06 22:55:03,542 INFO  org.talend.librariesmanager.librarydata.LibraryDataService  - org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact com.teradata:terajdbc4:pom:16.20.00.02 in talend (https://talend-update.talend.com/nexus/content/repositories/libraries/)
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:05.177
+!MESSAGE 2025-02-06 22:55:05,177 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/REPOSSI_MIG_ROUTINES: org.example.repossi_mig.code:routines:8.0.1 with classifier  to /REPOSSI_MIG_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:05.267
+!MESSAGE 2025-02-06 22:55:05,265 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Program Files (x86)\TOS_DI-8.0.1\studio\workspace_mig\REPOSSI_MIG\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:05.273
+!MESSAGE 2025-02-06 22:55:05,269 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:42.984
+!MESSAGE 2025-02-06 22:55:42,981 INFO  org.talend.core.model.relationship.RelationshipItemBuilder  - relationship.index generating
+
+
+!ENTRY org.talend.platform.logging 1 0 2025-02-06 22:55:43.061
+!MESSAGE 2025-02-06 22:55:43,059 INFO  org.talend.core.model.relationship.RelationshipItemBuilder  - relationship.index generated
+

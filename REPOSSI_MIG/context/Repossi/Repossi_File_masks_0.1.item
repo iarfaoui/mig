@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_68C4wKdGEe-238BClIk4fQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_68C4wadGEe-238BClIk4fQ" comment="" name="TalendContextSFTPMaskMAILIN" prompt="TalendContextSFTPMaskMAILIN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_68C4wqdGEe-238BClIk4fQ" comment="" name="TalendContextSFTPMaskJOURNA" prompt="TalendContextSFTPMaskJOURNA?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_68C4w6dGEe-238BClIk4fQ" comment="" name="TalendContextSFTPMaskHISTOVEN" prompt="TalendContextSFTPMaskHISTOVEN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_68C4xKdGEe-238BClIk4fQ" comment="" name="TalendContextSFTPMaskACLI" prompt="TalendContextSFTPMaskACLI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_68C4xadGEe-238BClIk4fQ" comment="" name="TalendContextSFTPMaskLIGACLI" prompt="TalendContextSFTPMaskLIGACLI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_p9o24KdGEe-238BClIk4fQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_p9o24adGEe-238BClIk4fQ" comment="" name="TalendContextSuccessPath" prompt="TalendContextSuccessPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_p9o24qdGEe-238BClIk4fQ" comment="" name="TalendContextRejectPath" prompt="TalendContextRejectPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_p9o246dGEe-238BClIk4fQ" comment="" name="TalendContextTempPath" prompt="TalendContextTempPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_p9o25KdGEe-238BClIk4fQ" comment="" name="TalendContextLogsPath" prompt="TalendContextLogsPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_p9o25adGEe-238BClIk4fQ" comment="" name="TalendContextArchivePath" prompt="TalendContextArchivePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_LYWoQKdJEe-238BClIk4fQ" comment="" name="TalendContext_file" prompt="TalendContext_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\Users\VO2GROUP\Documents\Repossi\context\contextpreprod_local.properties&quot;"/>
+    <contextParameter xmi:id="__Q1JYK11Ee-eBqZKcpQXWg" comment="" name="TalendBulk_file" prompt="TalendBulk_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\Users\VO2\Documents\Repossi\context\contextpreprod.properties&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YQ3LwKdJEe-238BClIk4fQ" confirmationNeeded="false" name="Preprod">
+    <contextParameter xmi:id="_YQ3LwadJEe-238BClIk4fQ" comment="" name="TalendContextSuccessPath" prompt="TalendContextSuccessPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LwqdJEe-238BClIk4fQ" comment="" name="TalendContextRejectPath" prompt="TalendContextRejectPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3Lw6dJEe-238BClIk4fQ" comment="" name="TalendContextTempPath" prompt="TalendContextTempPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LxKdJEe-238BClIk4fQ" comment="" name="TalendContextLogsPath" prompt="TalendContextLogsPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LxadJEe-238BClIk4fQ" comment="" name="TalendContextArchivePath" prompt="TalendContextArchivePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LxqdJEe-238BClIk4fQ" comment="" name="TalendContext_file" prompt="TalendContext_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\Users\VO2GROUP\Documents\Repossi\context\contextpreprod_local.properties&quot;"/>
+    <contextParameter xmi:id="__Q1JYa11Ee-eBqZKcpQXWg" comment="" name="TalendBulk_file" prompt="TalendBulk_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YQ3Lx6dJEe-238BClIk4fQ" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_YQ3LyKdJEe-238BClIk4fQ" comment="" name="TalendContextSuccessPath" prompt="TalendContextSuccessPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LyadJEe-238BClIk4fQ" comment="" name="TalendContextRejectPath" prompt="TalendContextRejectPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LyqdJEe-238BClIk4fQ" comment="" name="TalendContextTempPath" prompt="TalendContextTempPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3Ly6dJEe-238BClIk4fQ" comment="" name="TalendContextLogsPath" prompt="TalendContextLogsPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LzKdJEe-238BClIk4fQ" comment="" name="TalendContextArchivePath" prompt="TalendContextArchivePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_YQ3LzadJEe-238BClIk4fQ" comment="" name="TalendContext_file" prompt="TalendContext_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/home/talend/client/Repossi/prod/Context/contextprod.properties&quot;"/>
+    <contextParameter xmi:id="__Q1JYq11Ee-eBqZKcpQXWg" comment="" name="TalendBulk_file" prompt="TalendBulk_file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

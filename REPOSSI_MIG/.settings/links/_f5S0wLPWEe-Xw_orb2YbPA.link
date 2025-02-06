@@ -1,0 +1,214 @@
+{
+  "itemId" : "_f5S0wLPWEe-Xw_orb2YbPA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_67iicKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_68C4wadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPMaskMAILIN"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_p9IgkKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "__Q1JYK11Ee-eBqZKcpQXWg",
+      "name" : "TalendBulk_file"
+    }, {
+      "id" : "_LYWoQKdJEe-238BClIk4fQ",
+      "name" : "TalendContext_file"
+    }, {
+      "id" : "_p9o25adGEe-238BClIk4fQ",
+      "name" : "TalendContextArchivePath"
+    }, {
+      "id" : "_p9o25KdGEe-238BClIk4fQ",
+      "name" : "TalendContextLogsPath"
+    }, {
+      "id" : "_p9o24qdGEe-238BClIk4fQ",
+      "name" : "TalendContextRejectPath"
+    }, {
+      "id" : "_p9o24adGEe-238BClIk4fQ",
+      "name" : "TalendContextSuccessPath"
+    }, {
+      "id" : "_p9o246dGEe-238BClIk4fQ",
+      "name" : "TalendContextTempPath"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_RYcp0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_RZEU4KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFPassword"
+    }, {
+      "id" : "_RZEU4adGEe-238BClIk4fQ",
+      "name" : "TalendContextSFToken"
+    }, {
+      "id" : "_RZDt0KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFURL"
+    }, {
+      "id" : "_RZDGwadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFUser"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_fn2u0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_foiERqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantArchiveRepoPath"
+    }, {
+      "id" : "_foiERadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantRepoPath"
+    }, {
+      "id" : "_foiEQadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPHost"
+    }, {
+      "id" : "_foiEQ6dGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPassword"
+    }, {
+      "id" : "_foiERKdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPort"
+    }, {
+      "id" : "_foiEQqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPUser"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_67iicKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_68C4wadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPMaskMAILIN"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_p9IgkKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "__Q1JYq11Ee-eBqZKcpQXWg",
+      "name" : "TalendBulk_file"
+    }, {
+      "id" : "_YQ3LzadJEe-238BClIk4fQ",
+      "name" : "TalendContext_file"
+    }, {
+      "id" : "_YQ3LzKdJEe-238BClIk4fQ",
+      "name" : "TalendContextArchivePath"
+    }, {
+      "id" : "_YQ3Ly6dJEe-238BClIk4fQ",
+      "name" : "TalendContextLogsPath"
+    }, {
+      "id" : "_YQ3LyadJEe-238BClIk4fQ",
+      "name" : "TalendContextRejectPath"
+    }, {
+      "id" : "_YQ3LyKdJEe-238BClIk4fQ",
+      "name" : "TalendContextSuccessPath"
+    }, {
+      "id" : "_YQ3LyqdJEe-238BClIk4fQ",
+      "name" : "TalendContextTempPath"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_RYcp0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_RZEU4KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFPassword"
+    }, {
+      "id" : "_RZEU4adGEe-238BClIk4fQ",
+      "name" : "TalendContextSFToken"
+    }, {
+      "id" : "_RZDt0KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFURL"
+    }, {
+      "id" : "_RZDGwadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFUser"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_fn2u0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_foiERqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantArchiveRepoPath"
+    }, {
+      "id" : "_foiERadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantRepoPath"
+    }, {
+      "id" : "_foiEQadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPHost"
+    }, {
+      "id" : "_foiEQ6dGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPassword"
+    }, {
+      "id" : "_foiERKdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPort"
+    }, {
+      "id" : "_foiEQqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPUser"
+    } ]
+  }, {
+    "contextName" : "Preprod",
+    "repoId" : "_67iicKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_68C4wadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPMaskMAILIN"
+    } ]
+  }, {
+    "contextName" : "Preprod",
+    "repoId" : "_p9IgkKdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "__Q1JYa11Ee-eBqZKcpQXWg",
+      "name" : "TalendBulk_file"
+    }, {
+      "id" : "_YQ3LxqdJEe-238BClIk4fQ",
+      "name" : "TalendContext_file"
+    }, {
+      "id" : "_YQ3LxadJEe-238BClIk4fQ",
+      "name" : "TalendContextArchivePath"
+    }, {
+      "id" : "_YQ3LxKdJEe-238BClIk4fQ",
+      "name" : "TalendContextLogsPath"
+    }, {
+      "id" : "_YQ3LwqdJEe-238BClIk4fQ",
+      "name" : "TalendContextRejectPath"
+    }, {
+      "id" : "_YQ3LwadJEe-238BClIk4fQ",
+      "name" : "TalendContextSuccessPath"
+    }, {
+      "id" : "_YQ3Lw6dJEe-238BClIk4fQ",
+      "name" : "TalendContextTempPath"
+    } ]
+  }, {
+    "contextName" : "Preprod",
+    "repoId" : "_RYcp0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_RZEU4KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFPassword"
+    }, {
+      "id" : "_RZEU4adGEe-238BClIk4fQ",
+      "name" : "TalendContextSFToken"
+    }, {
+      "id" : "_RZDt0KdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFURL"
+    }, {
+      "id" : "_RZDGwadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFUser"
+    } ]
+  }, {
+    "contextName" : "Preprod",
+    "repoId" : "_fn2u0KdGEe-238BClIk4fQ",
+    "parameterList" : [ {
+      "id" : "_foiERqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantArchiveRepoPath"
+    }, {
+      "id" : "_foiERadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPDistantRepoPath"
+    }, {
+      "id" : "_foiEQadGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPHost"
+    }, {
+      "id" : "_foiEQ6dGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPassword"
+    }, {
+      "id" : "_foiERKdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPPort"
+    }, {
+      "id" : "_foiEQqdGEe-238BClIk4fQ",
+      "name" : "TalendContextSFTPUser"
+    } ]
+  } ]
+}

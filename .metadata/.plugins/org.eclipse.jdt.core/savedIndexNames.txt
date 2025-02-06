@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+C:\Program Files (x86)\TOS_DI-8.0.1\studio\workspace_mig\.metadata\.plugins\org.eclipse.jdt.core
+1255119122.index
+3465864848.index
+3489426540.index
+33813466.index
+1143488546.index
+2062274237.index
+273868570.index
+931210709.index
+180869197.index
+1904287336.index
+2209212833.index
+1029217099.index
+1230445429.index
+2558992355.index
+2909193166.index
+1984709738.index
+3823697542.index
